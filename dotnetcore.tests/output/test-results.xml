@@ -1,11 +1,13 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<TestRun id="1f380918-bf5e-4b7e-925e-b6c0b3d715c2" name="Thor@TESTIAN 2017-10-11 20:46:57" runUser="TESTian\Thor" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
-  <Times creation="2017-10-11T20:46:57.9442558+11:00" queuing="2017-10-11T20:46:57.9442558+11:00" start="2017-10-11T20:46:51.7845522+11:00" finish="2017-10-11T20:46:57.9682587+11:00" />
-  <TestSettings name="default" id="6c0ce200-2f79-44a1-83ad-d2e00279c38e">
-    <Deployment runDeploymentRoot="Thor_TESTIAN 2017-10-11 20_46_57" />
-  </TestSettings>
-  <Results>
-    <UnitTestResult executionId="e0e2ffc2-377d-4aed-8416-4928e2f4576c" testId="c2a2daa8-f237-42ef-8919-c6c18bd3282a" testName="dotnetcore.tests.UnitTest1.Add(a: 1, b: -7)" computerName="TESTIAN" duration="00:00:00.0370000" startTime="2017-10-11T20:46:57.9602569+11:00" endTime="2017-10-11T20:46:57.9602569+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0e2ffc2-377d-4aed-8416-4928e2f4576c" />
+﻿<?xml version="1.0" encoding="utf-8"?>
+<assemblies timestamp="10/11/2017 22:18:30">
+  <assembly name="dotnetcore.tests.dll" environment="64-bit .NET Standard [collection-per-class, parallel (4 threads)]" test-framework="xUnit.net 2.3.0.3820" run-date="2017-10-11" run-time="22:18:30" total="2" passed="2" failed="0" skipped="0" time="0.637" errors="0">
+    <errors />
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for dotnetcore.tests.UnitTest1" time="0.044">
+      <test name="dotnetcore.tests.UnitTest1.Divide(a: 1, b: 2)" type="dotnetcore.tests.UnitTest1" method="Divide" time="0.042809" result="Pass" />
+      <test name="dotnetcore.tests.UnitTest1.Add(a: 1, b: -7)" type="dotnetcore.tests.UnitTest1" method="Add" time="0.0010696" result="Pass" />
+    </collection>
+  </assembly>
+</assemblies>602569+11:00" endTime="2017-10-11T20:46:57.9602569+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0e2ffc2-377d-4aed-8416-4928e2f4576c" />
     <UnitTestResult executionId="67e340ca-a6ab-4d7e-b8f4-fac360c9ab4b" testId="30408251-053c-4672-a441-429c9d99b457" testName="dotnetcore.tests.UnitTest1.Divide(a: 1, b: 2)" computerName="TESTIAN" duration="00:00:00.0010000" startTime="2017-10-11T20:46:57.9672576+11:00" endTime="2017-10-11T20:46:57.9672576+11:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67e340ca-a6ab-4d7e-b8f4-fac360c9ab4b" />
   </Results>
   <TestDefinitions>
