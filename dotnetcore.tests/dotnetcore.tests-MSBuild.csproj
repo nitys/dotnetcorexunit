@@ -1,0 +1,13 @@
+<Project
+    DefaultTargets="Test"
+    xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <UsingTask
+    AssemblyFile="path\to\xunit.runner.msbuild.dll"
+    TaskName="Xunit.Runner.MSBuild.xunit"/>
+
+  <Target Name="Test">
+    <xunit Assemblies="bin\Debug\netcoreapp1.1\dotnetcore.tests.dll" />
+  </Target>
+
+</Project>
