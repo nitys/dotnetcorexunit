@@ -25,9 +25,9 @@ namespace dotnetcore.tests
         }
 
         [Theory]
-        [InlineData(1,2)]
+        //[InlineData(1,2)]
         [InlineData(1,-7)]
-        [InlineData(1,1)]
+        //[InlineData(1,1)]
         public void Add(double a, double b)
         {
             var result = _operator.Add(a,b);
